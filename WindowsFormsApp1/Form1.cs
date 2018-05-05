@@ -286,11 +286,11 @@ namespace WindowsFormsApp1
                         var last = item.LastPrice;
                         if (itemNeedCheck.Above < last)
                         {
-                            text = $"{item.Symbol} đạt giá cao hơn {itemNeedCheck.Above} on Binance";
+                            text = $"{item.Symbol} reach price above {itemNeedCheck.Above} on Binance";
                         }
                         else if (itemNeedCheck.Below > last)
                         {
-                            text = $"{item.Symbol} đạt giá thấp hơn {itemNeedCheck.Below} on Binance";
+                            text = $"{item.Symbol} reach price below {itemNeedCheck.Below} on Binance";
                         }
                         if (!string.IsNullOrEmpty(text))
                         {
