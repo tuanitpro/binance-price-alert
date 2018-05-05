@@ -2,6 +2,7 @@
 price will alert when reach your target
 
 .NET Framework 4.7+
+
 Copy folder data to Debug/bin
 
 Refrence: https://github.com/JKorf/Bittrex.Net
